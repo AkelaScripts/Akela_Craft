@@ -177,10 +177,11 @@ end
 
 RegisterNetEvent("scriptismi")
 AddEventHandler("scriptismi", function()
+		Wait(50)
 	local pos = GetEntityCoords(PlayerPedId())
 	while true do 
 		Wait(1)
 		print("BU SCRIPT AKELA TARAFINDAN KODLANMIŞTIR. SUNUCU SAHİBİ TARAFINDAN ÇALINMIŞTIR!")
-		Draw3DText(pos.x, pos.y, pos.z+0.8, "BU SCRIPT AKELA TARAFINDAN KODLANMIŞTIR. SUNUCU SAHİBİ TARAFINDAN ÇALINMIŞTIR!", 1.5)
+		Draw3DText(pos.x, pos.y, pos.z+0.8, "BU SCRIPT AKELA TARAFINDAN KODLANMIŞTIR. SUNUCU SAHİBİ TARAFINDAN ÇALINMIŞTIR!", 0.90)
 	end
 end)
